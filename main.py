@@ -9,7 +9,7 @@ def draw_card():
 
 def check_user_score(score):
     if score > 21:
-        print(f"Your finl hand: {user_cards}, final score: {score}\nComputer's final hand {computer_cards}, "
+        print(f"Your final hand: {user_cards}, final score: {score}\nComputer's final hand {computer_cards}, "
               f"final score: {sum(computer_cards)} You went over")
         return True
     else:
